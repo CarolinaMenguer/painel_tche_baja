@@ -15,8 +15,8 @@ import time
 from selenium import webdriver
 from bs4 import BeautifulSoup as bs # pode ter problema aqui
 
-path = "data_fuel.csv"
-path_sae = "data_sae.csv"
+path = "data/data_fuel.csv"
+path_sae = "data/data_sae.csv"
 
 df = pd.read_csv(path)
 
