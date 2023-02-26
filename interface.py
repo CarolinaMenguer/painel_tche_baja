@@ -1,7 +1,4 @@
 
-import os
-import pathlib
-import re
 import dash
 from dash import dcc
 from dash import html
@@ -9,18 +6,14 @@ from dash.dependencies import Input, Output, State
 from dash import dash_table
 from dash import ctx
 import dash_bootstrap_components as dbc
-import plotly.graph_objs as go
 import dash_daq as daq
 import pandas as pd
 from itertools import islice
 import csv
 from collections import OrderedDict
 import time
-from time import strftime
-import datetime
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from bs4 import BeautifulSoup as bs
+from bs4 import BeautifulSoup as bs # pode ter problema aqui
 
 path = "data_fuel.csv"
 path_sae = "data_sae.csv"
