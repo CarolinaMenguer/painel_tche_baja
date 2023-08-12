@@ -505,13 +505,7 @@ app.layout = html.Div(
                 html.Div(id="app-content")
             ],
         )
-    ]
-@app.callback(
-    Output('boolean-switch-result', 'children'),
-    Input('our-boolean-switch', 'on')
-)
-def update_output(on):
-    return f'The switch is {on}.'
+    ])
 
 
 # Chama as funcoes para compor o Painel
