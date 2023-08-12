@@ -1,31 +1,3 @@
-Skip to content
-CarolinaMenguer
-/
-painel_tche_baja
-
-Type / to search
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Commit
-Update interface.py
- main
-@CarolinaMenguer
-CarolinaMenguer committed on Feb 26 
-1 parent dc0063b
-commit e749d11
-Showing 1 changed file with 13 additions and 656 deletions.
- 669 changes: 13 additions & 656 deletions669  
-interface.py
-@@ -1,664 +1,21 @@
-
 import dash
 from dash import dcc
 from dash import html
